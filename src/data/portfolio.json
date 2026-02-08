@@ -1,0 +1,35 @@
+{
+  "holdings": [
+    { "id": "1", "symbol": "HDFCBANK.NS", "name": "HDFC Bank", "sector": "Financial", "purchasePrice": 1490, "quantity": 50 },
+    { "id": "2", "symbol": "BAJFINANCE.NS", "name": "Bajaj Finance", "sector": "Financial", "purchasePrice": 6466, "quantity": 15 },
+    { "id": "3", "symbol": "ICICIBANK.NS", "name": "ICICI Bank", "sector": "Financial", "purchasePrice": 780, "quantity": 84 },
+    { "id": "4", "symbol": "BAJAJHFL.NS", "name": "Bajaj Housing", "sector": "Financial", "purchasePrice": 130, "quantity": 504 },
+    { "id": "5", "symbol": "SAVANIFIN.NS", "name": "Savani Financials", "sector": "Financial", "purchasePrice": 24, "quantity": 1080 },
+
+    { "id": "6", "symbol": "AFFLE.NS", "name": "Affle India", "sector": "Tech", "purchasePrice": 1151, "quantity": 50 },
+    { "id": "7", "symbol": "LTIM.NS", "name": "LTI Mindtree", "sector": "Tech", "purchasePrice": 4775, "quantity": 16 },
+    { "id": "8", "symbol": "KPITTECH.NS", "name": "KPIT Tech", "sector": "Tech", "purchasePrice": 672, "quantity": 61 },
+    { "id": "9", "symbol": "TATATECH.NS", "name": "Tata Tech", "sector": "Tech", "purchasePrice": 1072, "quantity": 63 },
+    { "id": "10", "symbol": "BLSE.NS", "name": "BLS E-Services", "sector": "Tech", "purchasePrice": 232, "quantity": 191 },
+    { "id": "11", "symbol": "TANLA.NS", "name": "Tanla", "sector": "Tech", "purchasePrice": 1134, "quantity": 45 },
+    { "id": "12", "symbol": "DMART.NS", "name": "Dmart", "sector": "Tech", "purchasePrice": 3777, "quantity": 27 },
+    { "id": "13", "symbol": "TATACONSUM.NS", "name": "Tata Consumer", "sector": "Tech", "purchasePrice": 845, "quantity": 90 },
+    { "id": "14", "symbol": "PIDILITIND.NS", "name": "Pidilite", "sector": "Tech", "purchasePrice": 2376, "quantity": 36 },
+    { "id": "15", "symbol": "TATAPOWER.NS", "name": "Tata Power", "sector": "Tech", "purchasePrice": 224, "quantity": 225 },
+    { "id": "16", "symbol": "KPIGREEN.NS", "name": "KPI Green", "sector": "Tech", "purchasePrice": 875, "quantity": 50 },
+    { "id": "17", "symbol": "SUZLON.NS", "name": "Suzlon", "sector": "Tech", "purchasePrice": 44, "quantity": 450 },
+    { "id": "18", "symbol": "GENSOL.NS", "name": "Gensol", "sector": "Tech", "purchasePrice": 998, "quantity": 45 },
+
+    { "id": "19", "symbol": "HARIOMPIPE.NS", "name": "Hariom Pipes", "sector": "Pipe", "purchasePrice": 580, "quantity": 60 },
+    { "id": "20", "symbol": "ASTRAL.NS", "name": "Astral", "sector": "Pipe", "purchasePrice": 1517, "quantity": 56 },
+    { "id": "21", "symbol": "POLYCAB.NS", "name": "Polycab", "sector": "Pipe", "purchasePrice": 2818, "quantity": 28 },
+    { "id": "22", "symbol": "CLEAN.NS", "name": "Clean Science", "sector": "Pipe", "purchasePrice": 1610, "quantity": 32 },
+    { "id": "23", "symbol": "DEEPAKNTR.NS", "name": "Deepak Nitrite", "sector": "Pipe", "purchasePrice": 2248, "quantity": 27 },
+    { "id": "24", "symbol": "FINEORG.NS", "name": "Fine Organic", "sector": "Pipe", "purchasePrice": 4284, "quantity": 16 },
+    { "id": "25", "symbol": "GRAVITA.NS", "name": "Gravita", "sector": "Pipe", "purchasePrice": 2037, "quantity": 8 },
+    { "id": "26", "symbol": "SBILIFE.NS", "name": "SBI Life", "sector": "Pipe", "purchasePrice": 1197, "quantity": 49 },
+    { "id": "27", "symbol": "INFY.NS", "name": "Infosys", "sector": "Pipe", "purchasePrice": 1647, "quantity": 36 },
+    { "id": "28", "symbol": "HAPPSTMNDS.NS", "name": "Happiest Minds", "sector": "Pipe", "purchasePrice": 1103, "quantity": 45 },
+    { "id": "29", "symbol": "EASEMYTRIP.NS", "name": "EaseMyTrip", "sector": "Pipe", "purchasePrice": 20, "quantity": 1332 }
+  ]
+}

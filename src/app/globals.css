@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+:root {
+  --bg-main: #0b0e14;
+  --bg-card: rgba(255, 255, 255, 0.03);
+  --border-subtle: rgba(255, 255, 255, 0.1);
+
+  --green: #00c805;
+  --red: #ff3b30;
+  --blue: #007aff;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background: radial-gradient(
+    1200px circle at top,
+    #111827,
+    #020617
+  );
+  color: #e5e7eb;
+
+  font-family: var(--font-geist-sans),
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+
+/*  Price Pulse Animations */
+
+@keyframes pricePulseUp {
+  0% {
+    box-shadow: 0 0 0 rgba(0, 200, 5, 0);
+  }
+  50% {
+    box-shadow: 0 0 14px rgba(0, 200, 5, 0.45);
+  }
+  100% {
+    box-shadow: 0 0 0 rgba(0, 200, 5, 0);
+  }
+}
+
+@keyframes pricePulseDown {
+  0% {
+    box-shadow: 0 0 0 rgba(255, 59, 48, 0);
+  }
+  50% {
+    box-shadow: 0 0 14px rgba(255, 59, 48, 0.45);
+  }
+  100% {
+    box-shadow: 0 0 0 rgba(255, 59, 48, 0);
+  }
+}
+
+.price-up {
+  animation: pricePulseUp 1.2s ease-out;
+}
+
+.price-down {
+  animation: pricePulseDown 1.2s ease-out;
+}
+
+/* Scrollbar Styling */
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 999px;
+}
+
+.recharts-tooltip-wrapper {
+  outline: none !important;
+}
+
+.glass-card {
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.03);
+
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.45);
+  padding: 1.5rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
